@@ -2,6 +2,7 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+   background-color:#efeffa ;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -28,7 +29,10 @@
   padding: 12px 36px;
   border-radius:5px ;
   border: none;
+  cursor: pointer;
+
 }
+
 
 .section-title{
   font-size: 38px;
@@ -44,6 +48,9 @@
 
 
 /* nav styles */
+
+
+
 nav{
     display: flex;
     align-items: center;
@@ -125,6 +132,57 @@ nav ul li{
   /* padding: 50px 142px; */
 }
 
-.userss{
+
+
+.banner-second-pic{
+  width: 840px;
+  height: 364.77;
+  border-radius: 48px;
+  padding:261px 150px 71px ;
+}
+
+.third-bg{
+  width: 1140px;
+  background-color: #FFFFFF;
+  margin: 140px 150px;
   
+}
+
+.bannerss-title{ 
+  font-size: 50px;
+  font-weight: bold;
+  /* padding: 71px 291px; */
+}
+
+
+
+.contact-container{
+  display: flex;
+  padding: 40px;
+  max-width: 1140px;
+  margin: auto ;
+  gap: 50px;
+}
+
+.section-column{
+  font-size: 47px;
+  font-weight: bold;
+  margin-left: 142px;
+}
+
+.section-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-right: 142px;
+}
+
+.section-form input, .section-form textarea{
+  padding: 12px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.button-sec{
+
 }
