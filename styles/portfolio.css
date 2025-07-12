@@ -138,21 +138,27 @@ nav ul li{
   width: 840px;
   height: 364.77;
   border-radius: 48px;
-  padding:261px 150px 71px ;
+  padding:0 150px 50px ;
 }
 
-.third-bg{
+.hero{
   width: 1140px;
   background-color: #FFFFFF;
   margin: 140px 150px;
   
 }
 
-.bannerss-title{ 
-  font-size: 50px;
-  font-weight: bold;
-  /* padding: 71px 291px; */
+.ready{
+ text-align: center;
+ padding: 71px 176px 88px;
 }
+
+.focus{
+  font-size: 50;
+  font-weight: bold;
+}
+
+
 
 
 
